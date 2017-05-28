@@ -47,7 +47,7 @@ body
   background: #B44124;
   color: #F7A22B;
 }
-.item img{
+.item1 img{
   height: 350px;
   border: 1px solid #fff;
 }
@@ -151,5 +151,37 @@ width: 93%}
   align-items: center;
 }
 
-
-
+ .zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+  .item2 img{
+  height: 120px;
+}
+.owl-dots{
+  display: none;
+}
