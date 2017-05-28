@@ -181,6 +181,9 @@ body{
   border-bottom: 1px solid #F7A22B;
   padding-bottom: 15px;
 }
+.item2 a{
+  text-decoration: none;
+}
 .owl-dots{
   display: none;
 }
@@ -212,7 +215,7 @@ body{
 
 .item{
   border:1px solid #F7A22B;
-  box-shadow: 0px 0px 8px 1px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);
 }
 .fa-minus{
   padding-left: 6px;
@@ -236,5 +239,5 @@ body{
   bottom: 37px;
 }*/
 .owl-stage-outer{
-  box-shadow: 0px 0px 8px 1px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);
 }
