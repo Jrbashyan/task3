@@ -106,6 +106,15 @@ body{
     border: none;
 
 }
+.content .col-md-6:hover .birka2 {
+    transform: scale(1.1,1.1); /* Standard syntax */
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 30px 10px ;
+    border: none;
+
+}
 .info1{
   text-align: center;
   color:#F7A22B;
@@ -227,6 +236,14 @@ body{
   font-weight: 600;
   color: #F7A22B;
 }
+/*.birka2{
+  border: 20px solid transparent; 
+  border-top: 20px solid #B44124; 
+  border-right: 20px solid #B44124;
+  position: absolute;
+  left: 0;
+  bottom: 37px;
+}*/
 .owl-stage-outer{
   box-shadow: 0px 0px 8px 1px;
 }
