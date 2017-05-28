@@ -181,16 +181,27 @@ body{
   font-size: 16px;
   margin: 0;
 }
-.picinfo{
-  background: #fff;
+.picinfo1{
   color:#B44124;
-  text-align: center;
   padding: 10px;
   font-weight: 600;
-  margin: 0;
-  
+  float: left;
+  clear: both;
+  padding-left: 15px;
+
 }
+.picinfo2{
+  color:#B44124;
+  padding: 10px;
+  font-weight: 600;
+}
+.inf{
+  background: #fff;
+}
+
 .item{
   border:1px solid #F7A22B;
-
+}
+.fa-minus{
+  padding-left: 6px;
 }
