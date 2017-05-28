@@ -95,8 +95,7 @@ width: 93%}
   text-align: center;
   color:#Fff;
   font-size: 14px;
-  border-bottom: 1px solid #F7A22B;
-  padding-bottom: 70px;
+  padding-bottom: 15px;
 }
 .info3{
   text-align: center;
@@ -144,6 +143,7 @@ width: 93%}
 }
 .footlogo{
   width: 160px; 
+  margin-top: 15px;
 }
 .center{
   display: flex;
@@ -151,9 +151,30 @@ width: 93%}
   align-items: center;
 }
 
-  .item2 img{
+.item2 img{
   height: 120px;
+
+}
+.item2{
+  border-bottom: 1px solid #F7A22B;
+  padding-bottom: 15px;
 }
 .owl-dots{
   display: none;
+}
+.price{
+  background: #F7A22B;
+  padding: 10px;
+  color:#fff;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+.picinfo{
+  background: #fff;
+  color:#B44124;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  
 }
