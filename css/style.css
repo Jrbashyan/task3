@@ -15,9 +15,9 @@ ul li{
   src: url('../fonts/OpenSans/OpenSans-Regular.woff');
 }
 
-body
-{
-  background: #B44124;
+body{
+  background: url(../images/back4.png);
+ /* background: #B44124;*/
   font-family: 'Open Sans', sans-serif;
   }
   /*toggle_icon*/
@@ -192,4 +192,5 @@ body
 }
 .item{
   border:1px solid #F7A22B;
+
 }
