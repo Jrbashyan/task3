@@ -63,6 +63,7 @@ body{
   transition: 1s ease;
   width: 93%;
   box-shadow: 0px 0px 7px 1px;
+  z-index: 100;
 
 }
 .content .col-md-6
@@ -209,8 +210,13 @@ body{
 }
 .birka{
   position: absolute;
-  background: #fff;
-  left:0;
+  background: #B44124;
+  left: 0;
+  z-index: 500;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #F7A22B;
 }
 .owl-stage-outer{
   box-shadow: 0px 0px 8px 1px;
